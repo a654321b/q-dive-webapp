@@ -535,4 +535,39 @@ textarea:focus {
   .content {
     width: min(100% - 28px, 1080px);
   }
+  
+  .start-page {
+    padding: 22px 20px;
+    align-items: flex-start;
+  }
+
+  .start-inner {
+    padding-top: 18px;
+  }
+
+  .badge {
+    font-size: 12px;
+    padding: 6px 11px;
+    margin-bottom: 12px;
+  }
+
+  .start-title {
+    font-size: 44px;
+  }
+
+  .start-desc {
+    margin: 16px auto 22px;
+    font-size: 17px;
+    line-height: 1.55;
+    word-break: keep-all;
+  }
+
+  .stage-grid {
+    gap: 14px;
+  }
+
+  .stage-card {
+    min-height: 128px;
+    padding: 22px;
+  }
 }
