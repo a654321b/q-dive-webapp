@@ -138,53 +138,9 @@ function SectionHeader({ stage, step, title, description }) {
 function StartPage({ setCurrentStageKey }) {
   return (
     <div className="start-page">
-      <div className="ocean-bg" aria-hidden="true">
-        <div className="sky-glow"></div>
-        <div className="sun"></div>
-        <div className="cloud cloud-1"></div>
-        <div className="cloud cloud-2"></div>
-        <div className="island"></div>
-        <div className="sea-surface"></div>
-
-        <div className="light-ray ray-1"></div>
-        <div className="light-ray ray-2"></div>
-        <div className="light-ray ray-3"></div>
-
-        <div className="diver">
-          <div className="diver-head"></div>
-          <div className="diver-goggle"></div>
-          <div className="diver-body"></div>
-          <div className="diver-tank"></div>
-          <div className="diver-fin fin-left"></div>
-          <div className="diver-fin fin-right"></div>
-        </div>
-
-        <div className="bubble bubble-1"></div>
-        <div className="bubble bubble-2"></div>
-        <div className="bubble bubble-3"></div>
-        <div className="bubble bubble-4"></div>
-        <div className="bubble bubble-5"></div>
-
-        <div className="seaweed seaweed-1"></div>
-        <div className="seaweed seaweed-2"></div>
-        <div className="seaweed seaweed-3"></div>
-        <div className="seaweed seaweed-4"></div>
-
-        <div className="anglerfish">
-          <div className="angler-body"></div>
-          <div className="angler-tail"></div>
-          <div className="angler-eye"></div>
-          <div className="angler-lure"></div>
-          <div className="angler-light"></div>
-        </div>
-
-        <div className="sand"></div>
-      </div>
-
       <div className="start-inner">
         <div className="badge">Q-DIVE 질문 기반 탐구 웹앱</div>
         <h1 className="start-title">Q-DIVE</h1>
-
         <p className="start-desc">
           질문으로 깊이 있는 탐구의 여정을 시작해요.
           <br />
