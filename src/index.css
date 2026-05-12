@@ -525,6 +525,15 @@ textarea:focus {
   .start-page {
     padding: 18px 18px 32px;
     align-items: flex-start;
+    background:
+      linear-gradient(
+        rgba(5, 22, 52, 0.08),
+        rgba(5, 22, 52, 0.22)
+      ),
+      url("/ocean-bg-mobile.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
   }
   
   .start-inner {
