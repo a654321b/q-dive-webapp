@@ -580,4 +580,83 @@ textarea:focus {
     min-height: 128px;
     padding: 22px;
   }
+
+    .start-page {
+    padding: 22px 20px;
+    align-items: flex-start;
+    background:
+      linear-gradient(
+        rgba(5, 22, 52, 0.08),
+        rgba(5, 22, 52, 0.28)
+      ),
+      url("/ocean-bg-mobile.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .start-inner {
+    padding-top: 14px;
+  }
+
+  .badge {
+    background: rgba(15, 23, 42, 0.26);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(10px);
+  }
+
+  .start-title {
+    font-size: 44px;
+    text-shadow: 0 4px 18px rgba(0, 0, 0, 0.32);
+  }
+
+  .start-desc {
+    margin: 16px auto 22px;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+    word-break: keep-all;
+    text-shadow: 0 3px 14px rgba(0, 0, 0, 0.32);
+  }
+
+  .stage-grid {
+    gap: 14px;
+  }
+
+  .stage-card {
+    min-height: 118px;
+    padding: 20px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.18);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .stage-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    font-size: 24px;
+  }
+
+  .stage-key {
+    font-size: 22px;
+  }
+
+  .stage-title {
+    margin-top: 4px;
+    font-size: 20px;
+    line-height: 1.25;
+    word-break: keep-all;
+  }
+
+  .stage-subtitle {
+    margin-top: 6px;
+    font-size: 15px;
+    line-height: 1.4;
+    word-break: keep-all;
+  }
 }
