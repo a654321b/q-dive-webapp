@@ -566,7 +566,7 @@ textarea:focus {
     justify-items: center;
   }
 
-  .stage-card {
+ .stage-card {
     min-height: 112px;
     padding: 18px 20px;
     border-radius: 24px;
@@ -599,7 +599,7 @@ textarea:focus {
     font-size: 15px;
     line-height: 1.4;
   }
-
+  
   .workspace {
     display: block;
   }
