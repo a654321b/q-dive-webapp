@@ -522,58 +522,39 @@ textarea:focus {
 }
 
 @media (max-width: 900px) {
-  .start-page {
-    padding: 22px 20px;
+    .start-page {
+    padding: 18px 18px 32px;
     align-items: flex-start;
-    background:
-      linear-gradient(
-        rgba(5, 22, 52, 0.08),
-        rgba(5, 22, 52, 0.28)
-      ),
-      url("/ocean-bg-mobile.png");
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
   }
 
   .start-inner {
-    padding-top: 14px;
+    padding-top: 24px;
   }
 
   .badge {
-    font-size: 12px;
-    padding: 6px 11px;
     margin-bottom: 12px;
     background: rgba(15, 23, 42, 0.28);
-    border: 1px solid rgba(255, 255, 255, 0.34);
-    color: #f8fbff;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
   }
 
   .start-title {
-    font-size: 44px;
-    text-shadow:
-      0 3px 6px rgba(0, 0, 0, 0.55),
-      0 8px 24px rgba(0, 0, 0, 0.38);
+    font-size: 50px;
+    text-shadow: 0 5px 16px rgba(0, 0, 0, 0.42);
   }
 
-  .start-desc {
-    display: inline-block;
-    margin: 16px auto 22px;
-    padding: 10px 14px;
-    border-radius: 18px;
-    background: rgba(4, 18, 42, 0.24);
-    color: #ffffff;
-    font-size: 17px;
-    line-height: 1.6;
-    text-align: center;
-    word-break: keep-all;
-    text-shadow:
-      0 2px 4px rgba(0, 0, 0, 0.55),
-      0 6px 18px rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+  .stage-grid {
+    gap: 14px;
+    max-width: 520px;
+  }
+
+   .start-desc {
+    max-width: 92%;
+    margin: 14px auto 22px;
+    padding: 18px 18px;
+    border-radius: 22px;
+    font-size: 18px;
+    line-height: 1.65;
+    background: rgba(15, 23, 42, 0.42);
+    backdrop-filter: blur(5px);
   }
 
   .stage-grid {
@@ -586,25 +567,19 @@ textarea:focus {
   }
 
   .stage-card {
-    width: 100%;
-    min-height: 108px;
-    padding: 16px 14px;
+    min-height: 112px;
+    padding: 18px 20px;
     border-radius: 24px;
-    background: rgba(255, 255, 255, 0.76);
-    border: 1px solid rgba(255, 255, 255, 0.55);
-    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.16);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    text-align: center;
-    word-break: keep-all;
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(8px);
   }
 
   .stage-icon {
-    width: 44px;
-    height: 44px;
-    margin: 0 auto 8px;
-    border-radius: 14px;
-    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 12px;
+    border-radius: 16px;
+    font-size: 24px;
   }
 
   .stage-key {
@@ -613,18 +588,16 @@ textarea:focus {
 
   .stage-title {
     margin-top: 0;
-    font-size: 17px;
-    line-height: 1.25;
     text-align: center;
-    word-break: keep-all;
+    font-size: 22px;
+    line-height: 1.25;
   }
 
   .stage-subtitle {
-    margin-top: 5px;
-    font-size: 12px;
-    line-height: 1.35;
+    margin-top: 8px;
     text-align: center;
-    word-break: keep-all;
+    font-size: 15px;
+    line-height: 1.4;
   }
 
   .workspace {
